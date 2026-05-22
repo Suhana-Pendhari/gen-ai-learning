@@ -23,3 +23,5 @@ uvicorn
 requests
 numpy
 pandas
+
+langchain-mistralai
