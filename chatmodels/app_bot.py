@@ -8,7 +8,7 @@ from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import HumanMessage, AIMessage
 
 model = ChatMistralAI(
-    model="mistral-small-2506",
+    model="mistral-small-latest",
     temperature=0.9
 )
 
