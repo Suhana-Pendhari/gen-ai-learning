@@ -8,7 +8,7 @@ from langchain_mistralai import ChatMistralAI
 from langchain_core.messages import HumanMessage, AIMessage
 
 model = ChatMistralAI(
-    model="mistral-small-latest",
+    model="mistral-small-2506",
     temperature=0.9
 )
 
@@ -74,3 +74,5 @@ if prompt:
     st.session_state.messages.append(
         AIMessage(content=bot_reply)
     )
+
+# streamlit run app_bot.py
